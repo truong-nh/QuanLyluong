@@ -6,12 +6,14 @@ package nitro.quanlyluong;
  */
 public class NewClass {
        public static void main(String[] args) {
- //       CongTy Doctor = new CongTy("Doctor", 0, 2000000);
+        CongTy Doctor = new CongTy("Doctor", 0, 2000000);
         
         
-  //    CanBoCoHuu a = new CanBoCoHuu(2, "anc");
-//        Doctor.themNV(a);
-        System.out.println("abc");
+      CanBoCoHuu a = new CanBoCoHuu(2, "anc");
+        Doctor.themNV(a);
+      TruongPhong b = new TruongPhong(3, 20, "hung");
+        Doctor.themNV(b);
+        Doctor.inThongTin();
         
     }
 }

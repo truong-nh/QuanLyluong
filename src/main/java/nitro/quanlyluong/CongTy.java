@@ -45,7 +45,7 @@ public class CongTy {
         CongTy.loiNhuan=loiNhuan;
     }
 
-  /*  public boolean themNV(NhanVien a) {
+    public boolean themNV(NhanVien a) {
         if (soNhanVien < SO_NV_MAX) {
             nv.add(a);
             soNhanVien++;
@@ -53,7 +53,7 @@ public class CongTy {
         } else {
             return false;
         }
-    }*/
+    }
 
     public void inThongTin() {
         // in ra tenCongTy va thong tin toan bo nhan vien cong ty
